@@ -26709,7 +26709,7 @@
 	      React.createElement(
 	        'h3',
 	        null,
-	        'This is the Example Component!'
+	        'Example'
 	      ),
 	      React.createElement(
 	        'p',
