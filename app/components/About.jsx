@@ -11,7 +11,10 @@ var React = require('react');
 // Stateless functional component
 var About = (props) => {
   return (
-    <h3>About Component (Stateless functional component)</h3>
+    <div>
+      <h3>About</h3>
+      <p>Here you can find local weather in any city. Have fun!</p>
+    </div>
   )
 };
 

@@ -26683,9 +26683,18 @@
 	// Stateless functional component
 	var About = function About(props) {
 	  return React.createElement(
-	    'h3',
+	    'div',
 	    null,
-	    'About Component (Stateless functional component)'
+	    React.createElement(
+	      'h3',
+	      null,
+	      'About'
+	    ),
+	    React.createElement(
+	      'p',
+	      null,
+	      'Here you can find local weather in any city. Have fun!'
+	    )
 	  );
 	};
 
